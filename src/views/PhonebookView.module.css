@@ -1,0 +1,8 @@
+.Phonebook {
+  display: flex;
+  flex-direction: column;
+}
+
+.header_phonebook {
+  text-align: center;
+}
