@@ -9,16 +9,18 @@ import AppBar from '@material-ui/core/AppBar';
 
 const useStyles = makeStyles(theme => ({
   root: {
+    backgroundColor: '#1c1e21',
     flexGrow: 1,
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
 
     flexDirection: 'row',
-    height: '65px',
+    height: '50px',
     maxWidth: '1400px',
   },
   AppBar: {
+    backgroundColor: '#1c1e21',
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'center',

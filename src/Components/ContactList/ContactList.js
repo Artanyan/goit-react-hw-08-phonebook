@@ -16,7 +16,7 @@ const ContactList = () => {
         <div className={styles.Loader}>
           <Loader
             type="Puff"
-            color="#00BFFF"
+            color="gray"
             height={100}
             width={100}
             timeout={3000} //3 secs
@@ -29,7 +29,7 @@ const ContactList = () => {
             <span>{contact.name}</span> {contact.number}
             <Button
               type="button"
-              variant="outlined"
+              variant="contained"
               color="secondary"
               onClick={() => onDeleteContact(contact.id)}
             >

@@ -17,12 +17,12 @@ const styles = {
     height: '100%',
     verticalAlign: 'middle',
     fontWeight: 700,
-    fontSize: '30px',
-    color: '#2A363B',
+    fontSize: '28px',
+    color: '#0069d9',
   },
   activeLink: {
-    color: '#E84A5F',
-    borderBottom: '5px solid #E84A5F',
+    color: '#fff',
+    borderBottom: '4px solid grey',
   },
 };
 

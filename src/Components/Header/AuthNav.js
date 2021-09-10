@@ -7,11 +7,11 @@ const BootstrapButton = withStyles({
     boxShadow: 'none',
     textTransform: 'none',
     fontSize: 20,
-    padding: '6px 12px',
+    padding: '5px 10px',
     border: '1px solid',
     lineHeight: 1.5,
-    backgroundColor: '#fff200',
-    borderColor: '#035418',
+    backgroundColor: '#007bff',
+    borderColor: '#007bff',
     fontFamily: [
       '-apple-system',
       'BlinkMacSystemFont',
@@ -25,14 +25,14 @@ const BootstrapButton = withStyles({
       '"Segoe UI Symbol"',
     ].join(','),
     '&:hover': {
-      backgroundColor: '#ffae00',
-      borderColor: '#275232',
+      backgroundColor: '#0069d9',
+      borderColor: '#0062cc',
       boxShadow: 'none',
     },
     '&:active': {
       boxShadow: 'none',
-      backgroundColor: '#ff9100',
-      borderColor: '#ffae00',
+      backgroundColor: '#0062cc',
+      borderColor: '#0069d9',
     },
     '&:focus': {
       boxShadow: '0 0 0 0.2rem rgba(0,123,255,.5)',
@@ -53,10 +53,10 @@ const myStyles = {
     display: 'inline-block',
     textDecoration: 'none',
     fontWeight: 700,
-    color: '#2A363B',
+    color: '#000',
   },
   activeLink: {
-    color: '#E84A5F',
+    color: '#fff',
   },
 };
 
